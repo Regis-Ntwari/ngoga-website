@@ -42,27 +42,52 @@ export const WhatWeOffer = () => {
         </Typography>
         <ul>
           <li>
-            <Typography component="p" variant="p" fontFamily="Poppins">
+            <Typography
+              component="p"
+              variant="p"
+              fontFamily="Poppins"
+              marginBottom={3}
+            >
               Architectural Design & Feasibility Studies
             </Typography>
           </li>
           <li>
-            <Typography component="p" variant="p" fontFamily="Poppins">
+            <Typography
+              component="p"
+              variant="p"
+              fontFamily="Poppins"
+              marginBottom={3}
+            >
               Interior Design
             </Typography>
           </li>
           <li>
-            <Typography component="p" variant="p" fontFamily="Poppins">
+            <Typography
+              component="p"
+              variant="p"
+              fontFamily="Poppins"
+              marginBottom={3}
+            >
               Civil Engineering Works
             </Typography>
           </li>
           <li>
-            <Typography component="p" variant="p" fontFamily="Poppins">
+            <Typography
+              component="p"
+              variant="p"
+              fontFamily="Poppins"
+              marginBottom={3}
+            >
               Construction Machinery Rental
             </Typography>
           </li>
           <li>
-            <Typography component="p" variant="p" fontFamily="Poppins">
+            <Typography
+              component="p"
+              variant="p"
+              fontFamily="Poppins"
+              marginBottom={3}
+            >
               Property Management
             </Typography>
           </li>

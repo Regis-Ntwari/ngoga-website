@@ -9,7 +9,7 @@ export const Contact = () => {
   };
 
   const handleEmailClick = () => {
-    window.location.href = "mailto:ngoga@gmail.com";
+    window.location.href = "mailto:aristongoga4@gmail.com";
   };
   return (
     <Grid

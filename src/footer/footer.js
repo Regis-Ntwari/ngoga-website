@@ -94,7 +94,7 @@ export const Footer = () => {
             Contact Information
           </Typography>
           <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
-            Email: ngoga
+            Email: aristongoga4@gmail.com
           </Typography>
           <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
             Phone: +250788916923
