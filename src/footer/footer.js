@@ -25,6 +25,8 @@ export const Footer = () => {
           <Typography
             variant="h6"
             gutterBottom
+            fontFamily="Poppins"
+            fontWeight="bolder"
             style={{
               display: "flex",
               flexDirection: "column",
@@ -34,11 +36,11 @@ export const Footer = () => {
           >
             Address
           </Typography>
-          <Typography style={{ color: COLORS.FOREGOUND }}>
-            123 Street Name
+          <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
+            Kigali, Rwanda
           </Typography>
-          <Typography style={{ color: COLORS.FOREGOUND }}>
-            City, State, Zip Code
+          <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
+            KK71 st
           </Typography>
         </Grid>
         {/* Tabs column */}
@@ -54,14 +56,22 @@ export const Footer = () => {
         >
           <Typography
             variant="h6"
+            fontFamily="Poppins"
+            fontWeight="bolder"
             gutterBottom
             style={{ color: COLORS.FOREGOUND }}
           >
-            Tabs
+            Pages
           </Typography>
-          <Typography style={{ color: COLORS.FOREGOUND }}>Tab 1</Typography>
-          <Typography style={{ color: COLORS.FOREGOUND }}>Tab 2</Typography>
-          <Typography style={{ color: COLORS.FOREGOUND }}>Tab 3</Typography>
+          <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
+            Home
+          </Typography>
+          <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
+            About Us
+          </Typography>
+          <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
+            Our Work
+          </Typography>
         </Grid>
         {/* Contact column */}
         <Grid
@@ -77,15 +87,17 @@ export const Footer = () => {
           <Typography
             variant="h6"
             gutterBottom
+            fontFamily="Poppins"
+            fontWeight="bolder"
             style={{ color: COLORS.FOREGOUND }}
           >
             Contact Information
           </Typography>
-          <Typography style={{ color: COLORS.FOREGOUND }}>
-            Email: example@example.com
+          <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
+            Email: ngoga
           </Typography>
-          <Typography style={{ color: COLORS.FOREGOUND }}>
-            Phone: +1234567890
+          <Typography fontFamily="Poppins" style={{ color: COLORS.FOREGOUND }}>
+            Phone: +250788916923
           </Typography>
         </Grid>
       </Grid>

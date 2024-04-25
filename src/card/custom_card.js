@@ -1,13 +1,5 @@
-import {
-  Button,
-  Card,
-  CardActions,
-  CardContent,
-  CardMedia,
-  Typography,
-} from "@mui/material";
+import { Card, CardContent, CardMedia, Typography } from "@mui/material";
 import React from "react";
-import { COLORS } from "../utils/colors";
 
 export const CustomCard = () => {
   return (
