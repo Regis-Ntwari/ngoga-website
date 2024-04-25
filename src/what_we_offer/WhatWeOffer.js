@@ -8,8 +8,8 @@ export const WhatWeOffer = () => {
       sx={{
         display: "flex",
         flexDirection: { xs: "column", sm: "row" },
-        margin: 10,
-        padding: 10,
+        margin: { xs: 1, md: 10 },
+        padding: { xs: 2, md: 10 },
       }}
     >
       <CardMedia
@@ -25,6 +25,7 @@ export const WhatWeOffer = () => {
         sx={{
           display: "flex",
           flexDirection: "column",
+          width: "100%",
         }}
       >
         <Typography
@@ -39,14 +40,33 @@ export const WhatWeOffer = () => {
         >
           WHAT WE OFFER
         </Typography>
-        <Typography
-          variant="body1"
-          component="p"
-          style={{ fontFamily: "Poppins", textAlign: "center" }}
-        >
-          At Decons Ltd, Construction design at your disposition. Civil
-          Engineering, Road construction and any service at your disposal.
-        </Typography>
+        <ul>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              Architectural Design & Feasibility Studies
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              Interior Design
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              Civil Engineering Works
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              Construction Machinery Rental
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              Property Management
+            </Typography>
+          </li>
+        </ul>
       </CardContent>
     </Card>
   );

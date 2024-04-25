@@ -19,7 +19,7 @@ export const Footer = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "flex-start",
+            alignItems: "center",
           }}
         >
           <Typography
@@ -28,13 +28,18 @@ export const Footer = () => {
             style={{
               display: "flex",
               flexDirection: "column",
-              alignItems: "flex-start",
+              alignItems: "center",
+              color: COLORS.FOREGOUND,
             }}
           >
             Address
           </Typography>
-          <Typography>123 Street Name</Typography>
-          <Typography>City, State, Zip Code</Typography>
+          <Typography style={{ color: COLORS.FOREGOUND }}>
+            123 Street Name
+          </Typography>
+          <Typography style={{ color: COLORS.FOREGOUND }}>
+            City, State, Zip Code
+          </Typography>
         </Grid>
         {/* Tabs column */}
         <Grid
@@ -44,15 +49,19 @@ export const Footer = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "flex-start",
+            alignItems: "center",
           }}
         >
-          <Typography variant="h6" gutterBottom>
+          <Typography
+            variant="h6"
+            gutterBottom
+            style={{ color: COLORS.FOREGOUND }}
+          >
             Tabs
           </Typography>
-          <Typography>Tab 1</Typography>
-          <Typography>Tab 2</Typography>
-          <Typography>Tab 3</Typography>
+          <Typography style={{ color: COLORS.FOREGOUND }}>Tab 1</Typography>
+          <Typography style={{ color: COLORS.FOREGOUND }}>Tab 2</Typography>
+          <Typography style={{ color: COLORS.FOREGOUND }}>Tab 3</Typography>
         </Grid>
         {/* Contact column */}
         <Grid
@@ -62,14 +71,22 @@ export const Footer = () => {
           style={{
             display: "flex",
             flexDirection: "column",
-            alignItems: "flex-start",
+            alignItems: "center",
           }}
         >
-          <Typography variant="h6" gutterBottom>
+          <Typography
+            variant="h6"
+            gutterBottom
+            style={{ color: COLORS.FOREGOUND }}
+          >
             Contact Information
           </Typography>
-          <Typography>Email: example@example.com</Typography>
-          <Typography>Phone: +1234567890</Typography>
+          <Typography style={{ color: COLORS.FOREGOUND }}>
+            Email: example@example.com
+          </Typography>
+          <Typography style={{ color: COLORS.FOREGOUND }}>
+            Phone: +1234567890
+          </Typography>
         </Grid>
       </Grid>
     </footer>

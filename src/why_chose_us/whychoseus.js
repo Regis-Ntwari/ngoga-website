@@ -8,14 +8,15 @@ export const WhyChoseUs = () => {
       sx={{
         display: "flex",
         flexDirection: { xs: "column", sm: "row" },
-        margin: 10,
-        padding: 10,
+        margin: { xs: 1, md: 10 },
+        padding: { xs: 2, md: 10 },
       }}
     >
       <CardContent
         sx={{
           display: "flex",
           flexDirection: "column",
+          width: "100%",
         }}
       >
         <Typography
@@ -26,18 +27,41 @@ export const WhyChoseUs = () => {
             fontFamily: "Poppins",
             textAlign: "center",
             color: COLORS.FOREGOUND,
+            width: "100%",
           }}
         >
           WHY CHOOSE US?
         </Typography>
-        <Typography
-          variant="body1"
-          component="p"
-          style={{ fontFamily: "Poppins", textAlign: "center", paddingTop: 10 }}
-        >
-          At Decons Ltd, Construction design at your disposition. Civil
-          Engineering, Road construction and any service at your disposal.
-        </Typography>
+        <ul>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              We provide integrated architectural and civil engineering
+              solutions.
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              We prioritize quality throughout the project, from concept
+              creation to final execution.
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              We strive for unique and forward-thinking designs that incorporate
+              the most recent trends, technologies, and sustainable practices.
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              We deliver projects on schedule and within budget.
+            </Typography>
+          </li>
+          <li>
+            <Typography component="p" variant="p" fontFamily="Poppins">
+              We value open communication and collaboration with clients.
+            </Typography>
+          </li>
+        </ul>
       </CardContent>
       <CardMedia
         component="img"
