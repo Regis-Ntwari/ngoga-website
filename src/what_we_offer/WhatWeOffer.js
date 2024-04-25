@@ -78,7 +78,7 @@ export const WhatWeOffer = () => {
               fontFamily="Poppins"
               marginBottom={3}
             >
-              Construction Machinery Rental
+              Property Management
             </Typography>
           </li>
           <li>
@@ -88,7 +88,7 @@ export const WhatWeOffer = () => {
               fontFamily="Poppins"
               marginBottom={3}
             >
-              Property Management
+              Construction Machinery Rental
             </Typography>
           </li>
         </ul>
