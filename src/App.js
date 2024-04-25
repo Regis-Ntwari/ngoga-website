@@ -1,11 +1,10 @@
 import "./App.css";
+import { Contact } from "./contact/contact";
 import { Footer } from "./footer/footer";
 import { Navbar } from "./navbar/Navbar";
-import { Services } from "./services/services";
 import { Welcome } from "./welcome/welcome";
 import { WhatWeOffer } from "./what_we_offer/WhatWeOffer";
 import { WhyChoseUs } from "./why_chose_us/whychoseus";
-import { HomeWork } from "./work/homeWork";
 
 function App() {
   return (
@@ -14,8 +13,7 @@ function App() {
       <Welcome />
       <WhatWeOffer />
       <WhyChoseUs />
-      <HomeWork />
-      <Services />
+      <Contact />
       <Footer />
     </>
   );
