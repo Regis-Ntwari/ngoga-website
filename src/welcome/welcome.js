@@ -2,7 +2,7 @@ import { Button, Grid, Typography } from "@mui/material";
 import React from "react";
 import { COLORS } from "../utils/colors";
 
-export const Welcome = () => {
+export const Welcome = ({ scroll }) => {
   return (
     <Grid container spacing={2}>
       <Grid container xs={12}>
@@ -46,10 +46,12 @@ export const Welcome = () => {
               With us, we transform ideas into iconic structures.
             </Typography>
             <Button
+              onClick={scroll}
               style={{
                 marginTop: 20,
                 backgroundColor: COLORS.FOREGOUND,
                 color: COLORS.PRIMARY,
+                fontFamily: "Poppins",
               }}
             >
               CONTACT US

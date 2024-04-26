@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import "./App.css";
 import { Contact } from "./contact/contact";
 import { Footer } from "./footer/footer";
@@ -7,13 +8,18 @@ import { WhatWeOffer } from "./what_we_offer/WhatWeOffer";
 import { WhyChoseUs } from "./why_chose_us/whychoseus";
 
 function App() {
+  const contactRef = useRef(null);
+
+  const scrollToContact = () => {
+    contactRef.current.scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <>
       <Navbar />
-      <Welcome />
+      <Welcome scroll={scrollToContact} />
       <WhatWeOffer />
       <WhyChoseUs />
-      <Contact />
+      <Contact reference={contactRef} />
       <Footer />
     </>
   );

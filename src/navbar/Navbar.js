@@ -123,7 +123,12 @@ export const Navbar = () => {
               <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: COLORS.FOREGOUND, display: "block" }}
+                sx={{
+                  my: 2,
+                  color: COLORS.FOREGOUND,
+                  display: "block",
+                  fontFamily: "Poppins",
+                }}
               >
                 {page}
               </Button>

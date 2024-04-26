@@ -3,7 +3,7 @@ import React from "react";
 import { COLORS } from "../utils/colors";
 import { ContactCard } from "../contact card/contactCard";
 
-export const Contact = () => {
+export const Contact = ({ reference }) => {
   const handleWhatsappClick = () => {
     window.location.href = "https://wa.me/250788916923";
   };
@@ -29,6 +29,7 @@ export const Contact = () => {
       >
         <Typography
           component="h3"
+          ref={reference}
           variant="h3"
           style={{
             fontFamily: "Poppins",
