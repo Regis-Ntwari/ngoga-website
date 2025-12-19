@@ -8,8 +8,8 @@ export const WhyChoseUs = () => {
       sx={{
         display: "flex",
         flexDirection: { xs: "column", sm: "row" },
-        margin: { xs: 1, md: 10 },
-        padding: { xs: 2, md: 10 },
+        margin: { xs: 1, md: 5 },
+        padding: {xs: 1, md: 5}
       }}
     >
       <CardContent
